@@ -11,9 +11,7 @@
       </v-form>
     </v-card-text>
     <v-card-actions>
-      <router-link to="/">
         <v-btn class="success">ログイン</v-btn>
-      </router-link>
         <v-btn class="info">登録する</v-btn>
     </v-card-actions>
   </v-card>
