@@ -1,4 +1,8 @@
-# frontsample
+# 他己紹介サービス - フロントエンド
+
+## library
+- node v12.9.1
+- vue/cli 4.0.5
 
 ## Project setup
 ```
@@ -19,6 +23,3 @@ npm run build
 ```
 npm run lint
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
