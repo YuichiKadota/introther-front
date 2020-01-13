@@ -1,6 +1,7 @@
 <template>
+<!--いったん廃止中  -->
 <v-app>
-  <v-card width="500px" class="mx-auto mt-5">
+  <v-card width="500px" class="mx-auto mt-5" max-height="400">
     <v-card-title>
       <h1 class="display-1">ログイン</h1>
     </v-card-title>
