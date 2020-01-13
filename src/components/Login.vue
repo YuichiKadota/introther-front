@@ -13,6 +13,7 @@
     <v-card-actions>
         <v-btn class="success">ログイン</v-btn>
         <v-btn class="info">登録する</v-btn>
+        <v-spacer></v-spacer>
     </v-card-actions>
   </v-card>
 </v-app>

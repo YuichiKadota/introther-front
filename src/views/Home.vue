@@ -6,7 +6,7 @@
 
 <script lang="ts">
 import Vue from "vue";
-import Posts from "../components/Posts.vue";
+import Posts from "../components/ListsPosts.vue";
 
 export default Vue.extend({
   name: "app",

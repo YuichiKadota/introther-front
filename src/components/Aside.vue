@@ -14,11 +14,12 @@
           <v-icon>mdi-account</v-icon>
         </vist-item-icon>
         <v-list-item-content>
-          <router-link to="/login">
-            <v-list-item-title>
-              ログイン
-            </v-list-item-title>
-          </router-link>
+        <v-dialog v-model="dialog" max-width="600px">
+        <template v-slot:activator="{ on }">
+          <v-btn text v-on="on">ログインする</v-btn>
+        </template>
+        <Login/>
+      </v-dialog>
         </v-list-item-content>
       </v-list-item>
     </v-list>
@@ -28,9 +29,16 @@
 <script lang="ts">
 
 import Vue from "vue";
+import Login from "./Login.vue"
 
 export default Vue.extend({
   name: "Aside",
+  components:{
+    Login
+  },
+  data: () => ({
+    dialog: false
+  })
 });
 
 </script>

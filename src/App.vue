@@ -33,7 +33,7 @@ export default Vue.extend({
     Aside
   },
   data: () => ({
-    drawer: false
+    drawer: false,
   })
 });
 </script>
